@@ -4,4 +4,4 @@ class ScamReport(BaseModel):
     is_scam : bool = Field (description="Is the person being scammed? ")
     support_request : str = Field(description="What kind of scam is the person facing?")
     in_danger: bool = Field(description="Is the person in danger?")
-    response: str = Field(description="steps the person should take to ensure their safety")
+    been_scammed: bool = Field(description="has the scam happened already?")
