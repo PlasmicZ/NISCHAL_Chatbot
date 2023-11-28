@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify
 from langchain.prompts import PromptTemplate
 from langchain.output_parsers import PydanticOutputParser
-from ScamReport import ScamReport  # Make sure the import path is correct
+from ScamReport import ScamReport  
 from langchain.callbacks.manager import CallbackManager
 from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
 from langchain.llms import Ollama
